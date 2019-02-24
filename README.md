@@ -5,6 +5,9 @@ This project implements a simple load balancing program written in Java, with a 
 * The Workers(Servers) extract information corresponding to recieved requests(IDs) from a MySQL Database, and return the data in the form of JSON responses to the Load Balancer, which forwards it to the clients as mentioned above.
 * The Client, Load Balancer and Workers are all Multithreaded, and hence capable of Sending/Serving multiple requests at once.
 
+### To Dos: ###
+* Add multiple, more complex requests/tasks.
+* Add functionality to forward requests to workers based on their priority(high/medium/low).
 ## Steps to replicate for anyone interested: ##
 * Prerequisites:
   * JDK 8 or above
