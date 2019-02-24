@@ -5,7 +5,7 @@ This projects implements a simple load balancing program written in Java, with a
 * The Workers(Servers) extract information corresponding to recieved requests(IDs) from a MySQL Database, and return the data in the form of JSON responses to the Load Balancer, which forwards it to the client as mentioned above.
 * The clients display recieved data on STDOUT.
 
-## Steps to replicate for the interested folks:##
+## Steps to replicate for anyone interested: ##
 * Prerequisites:
   * JDK 8 or above
   * MySQL Server(+ MySQL Workbench recommended)
