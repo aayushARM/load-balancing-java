@@ -8,7 +8,7 @@ public class Worker {
         try {
             // Load MySQL JDBC Driver.
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/students", "root", "aayush119tg");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/students", "root", "xxxxxx");
 
             // Open socket for this worker.
             ServerSocket workerSocket = new ServerSocket(Integer.valueOf(args[0]));
