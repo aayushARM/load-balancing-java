@@ -12,10 +12,10 @@ This project implements a simple load balancing program written in Java, with a 
   * Necessary Jar files(included in /jars/ directory)
  * Import students.sql file to replicate the schema and table used with project. If using MySQL Workbench: Server->Data Import-> Import from Self-Contained file.
  * The hostname:port pairs are extracted from worker_list.txt, modify if needed. The scheduling algorithm is given as a command-line argument to LoadBalancer.class file. To launch all processes:
-  * If using a linux distro with gnome-terminal, just execute the included bash script launch_all.sh. 
-  * If using other terminal(ex. Xterm, Konsole), replace "gnome-terminal" with "terminal_name" everywhere(should work with most terminals). 
-  * If not using linux, manually copy and paste all javac and java commands from launch_all.sh into terminal. Note: the port numbers must match those in worker_list.txt.
-  * In all cases, modify the command-line argument for LoadBalancer as needed. Valid values: "RR" for Round-Robin and "LC" for Least Connections.
+   * If using a linux distro with gnome-terminal, just execute the included bash script launch_all.sh. 
+   * If using other terminal(ex. Xterm, Konsole), replace "gnome-terminal" with "terminal_name" everywhere(should work with most terminals). 
+   * If not using linux, manually copy and paste all javac and java commands from launch_all.sh into terminal. Note: the port numbers must match those in worker_list.txt.
+   * In all cases, modify the command-line argument for LoadBalancer as needed. Valid values: "RR" for Round-Robin and "LC" for Least Connections.
  * Once launched, windows correspsonding to Workers, Load Balancer, and Client will show appropriate outputs on terminal.
   
   
