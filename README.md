@@ -19,7 +19,7 @@ This project implements a simple load balancing program written in Java, with a 
    * If using other terminal(ex. Xterm, Konsole), replace "gnome-terminal" with "terminal_name" everywhere(should work with most terminals). 
    * If not using linux, manually copy and paste all javac and java commands from launch_all.sh into terminal. Note: the port numbers must match those in worker_list.txt.
    * In all cases, modify the command-line argument for LoadBalancer as needed. Valid values: "RR" for Round-Robin and "LC" for Least Connections.
- * Once launched, windows correspsonding to Workers, Load Balancer, and Client will show appropriate outputs on terminal.
+ * Once launched, windows corresponding to Workers, Load Balancer, and Client will show appropriate outputs on terminal.
   
   
  
